@@ -4,8 +4,8 @@
 const SETTINGS = {
   gltfModelURL: 'https://raw.githubusercontent.com/IceBerge421/FaceTracking/master/demos/threejs/gltf_fullScreen/MASKOFF.gltf',
   cubeMapURL: 'Bridge2/',
-  offsetYZ: [0.3, 0], // offset of the model in 3D along vertical and depth axis
-  scale: 1
+  offsetYZ: [0, 0], // offset of the model in 3D along vertical and depth axis
+  scale: 1.5
 };
 
 let THREECAMERA = null;
