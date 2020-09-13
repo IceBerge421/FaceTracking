@@ -5,7 +5,7 @@ const SETTINGS = {
   gltfModelURL: 'https://raw.githubusercontent.com/IceBerge421/DARKGLOW-AR-TEST/master/mask_off.gltf',
   cubeMapURL: 'Bridge2/',
   offsetYZ: [0.3, 0], // offset of the model in 3D along vertical and depth axis
-  scale: 2.5
+  scale: 1
 };
 
 let THREECAMERA = null;
