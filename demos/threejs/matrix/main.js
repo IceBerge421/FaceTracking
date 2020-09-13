@@ -57,7 +57,7 @@ function init_scene(spec){
 
   // create the background video texture:
   const video = document.createElement('video');
-  video.src = 'matrixRain.mp4';
+  video.src = 'BUGTRAP.mp4';
   video.setAttribute('loop', 'true');
   video.setAttribute('preload', 'true');
   video.setAttribute('autoplay', 'true');
