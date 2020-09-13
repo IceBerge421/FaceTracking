@@ -107,7 +107,7 @@ function init_scene(spec){
         vec2 uv=gl_FragCoord.xy/resolution;\n\
         vec3 colorWebcam=texture2D(samplerWebcam, uv).rgb;\n\
         float colorWebcamVal=dot(colorWebcam, vec3(0,0.0,0.0));\n\
-        colorWebcam=colorWebcamVal*vec3(0.0,1.5,0.0);\n\
+        colorWebcam=colorWebcamVal*vec3(0.0,0.5,0.0);\n\
         vec3 refracted=refract(vec3(0.,0.,-1.), vNormalView, 0.3);\n\
         vec2 uvRefracted=uv+0.1*refracted.xy;\n\
         uvRefracted=mix(uv, uvRefracted, smoothstep(0.,1.,isInsideFace));\n\
