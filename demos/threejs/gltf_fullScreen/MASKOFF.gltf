@@ -1,0 +1,283 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.3.48",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Fish_w_Mask",
+            "rotation" : [
+                -0.04317069053649902,
+                0,
+                0,
+                0.9990677833557129
+            ],
+            "translation" : [
+                0.006653651595115662,
+                -0.02889588661491871,
+                -0.003540735924616456
+            ]
+        },
+        {
+            "name" : "Default light"
+        },
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Fish_w_Mask_PackedMaterial0",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Fish_w_Mask_PackedMaterial1",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 3,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Fish_w_Mask",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        },
+        {
+            "source" : 3
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Fish_w_Mask_Packed0_Diffuse",
+            "uri" : "Fish_w_Mask_Packed0_Diffuse.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "MR_Fish_w_Mask_Packed0_Diffuse.png_spec_Fish_w_Mask_Packed0_Specular_gloss_256",
+            "uri" : "MR_Fish_w_Mask_Packed0_Diffuse_png_spec_Fish_w_Mask_Packed0_Specular_gloss_256.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Fish_w_Mask_Packed1_Diffuse",
+            "uri" : "Fish_w_Mask_Packed1_Diffuse.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "MR_Fish_w_Mask_Packed1_Diffuse.png_spec_Fish_w_Mask_Packed1_Specular_gloss_256",
+            "uri" : "MR_Fish_w_Mask_Packed1_Diffuse_png_spec_Fish_w_Mask_Packed1_Specular_gloss_256.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 4902,
+            "max" : [
+                0.1614886075258255,
+                0.13601146638393402,
+                0.18175162374973297
+            ],
+            "min" : [
+                -0.15042486786842346,
+                0.04044133052229881,
+                0.051729872822761536
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 4902,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 4902,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 4902,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 2943,
+            "max" : [
+                0.22037605941295624,
+                0.3861171305179596,
+                0.5140455365180969
+            ],
+            "min" : [
+                -0.211008220911026,
+                -0.4687764048576355,
+                -0.03136266767978668
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 2943,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 2943,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 2943,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 58824,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 58824,
+            "byteOffset" : 58824
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 39216,
+            "byteOffset" : 117648
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9804,
+            "byteOffset" : 156864
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 35316,
+            "byteOffset" : 166668
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 35316,
+            "byteOffset" : 201984
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23544,
+            "byteOffset" : 237300
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5886,
+            "byteOffset" : 260844
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 266732,
+            "uri" : "MASKOFF.bin"
+        }
+    ]
+}
