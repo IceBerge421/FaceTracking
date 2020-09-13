@@ -106,13 +106,13 @@ function init_scene(spec){
         float isInsideFace=(1.-isTangeant)*(1.-isNeck);\n\
         vec2 uv=gl_FragCoord.xy/resolution;\n\
         vec3 colorWebcam=texture2D(samplerWebcam, uv).rgb;\n\
-        float colorWebcamVal=dot(colorWebcam, vec3(0,0.0,0.0));\n\
-        colorWebcam=colorWebcamVal*vec3(0.0,0.5,0.0);\n\
+        float colorWebcamVal=dot(colorWebcam, vec3(0.299,0.587,0.114));\n\
+        colorWebcam=colorWebcamVal*vec3(0.0,1.5,0.0);\n\
         vec3 refracted=refract(vec3(0.,0.,-1.), vNormalView, 0.3);\n\
         vec2 uvRefracted=uv+0.1*refracted.xy;\n\
         uvRefracted=mix(uv, uvRefracted, smoothstep(0.,1.,isInsideFace));\n\
         vec3 colorLineCode=texture2D(samplerVideo, uvRefracted).rgb;\n\
-        colorWebcam+=vec3(1.,1.,1.)*smoothstep(0.3,0.6,colorWebcamVal);\n\
+        colorWebcam+=vec3(1.,1.,1.)*smoothstep(0.01,0.01,0.01);\n\
         vec3 finalColor=colorWebcam*isInsideFace+colorLineCode;\n\
         gl_FragColor=vec4(finalColor, 1.); //1 pour l'alpha\n\
       }",
